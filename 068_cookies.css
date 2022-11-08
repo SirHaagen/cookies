@@ -1,0 +1,57 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  font-family: Helvetica, sans-serif;
+}
+
+.container-main{
+  width: 80%;
+  padding: 100px;
+  margin: auto;
+}
+
+.modal-bg{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000aa;
+  position: fixed;
+}
+.modal{
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px;
+  font-size: 0.9em;
+}
+.modal p{
+  text-align: justify;
+}
+.buttons{
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+.btn{
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+  font-weight: bold;
+  cursor: pointer;
+}
+.accept{
+  margin-right: 5px;
+  background-color: #99ff99;
+}
+
+@keyframes show{
+  from{
+    filter: opacity(0);
+  }
+  to{
+    filter: opacity(1);
+  }
+}
